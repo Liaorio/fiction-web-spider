@@ -1,0 +1,29 @@
+{
+  "name": "fiction-web-spider",
+  "version": "1.0.0",
+  "description": "利用nodejs进行网络小说的爬取",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Liaorio/fiction-web-spider.git"
+  },
+  "keywords": [
+    "webspider",
+    "fiction"
+  ],
+  "author": "Liaorio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liaorio/fiction-web-spider/issues"
+  },
+  "homepage": "https://github.com/Liaorio/fiction-web-spider#readme",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "iconv-lite": "^0.4.15",
+    "request": "^2.79.0",
+    "sync-request": "^4.0.1"
+  }
+}
